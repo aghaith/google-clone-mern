@@ -1,0 +1,183 @@
+.App {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #FFFFFF!important;
+  padding: 0;
+}
+
+/* Menu */
+
+.menu {
+  margin-left: auto;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.menu .list {
+  list-style: none;
+  list-style: none;
+  margin: 0 5px;
+}
+
+.menu .list li {
+  float: left;
+  padding: 0px 5px;
+  color: #83868A;
+}
+
+/* Account */
+
+.account {
+  width: 35px;
+  text-align: center;
+  background-color: #EC407A;
+  padding: 7px;
+  border-radius: 18px;
+  color: #FEF6F9;
+}
+
+/* Name */
+
+.name {
+  font-size: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  line-height: 1;
+}
+
+.letter-a {
+  color: #4285F4;
+}
+
+.letter-b {
+  color: #EB4335;
+}
+
+.letter-b-second {
+  color: #FCBC05;
+}
+
+.letter-s {
+  color: #34A853;
+}
+
+.letter-g {
+  color: #EB4335;
+}
+
+/* Search field */
+
+.search-field {
+  justify-content: center;
+  height: 44px;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 584px;
+  margin-top: 20px;
+}
+
+.google-dev {
+  height: 160px;
+}
+
+.search-icon {
+  width: 25px;
+  padding-top: 14px;
+  padding-left: 9px;
+}
+
+.search-input {
+  border: none;
+}
+
+/* Buttons */
+
+.button-box {
+  margin-top: 25px;
+}
+
+.google-search-btn {
+  margin-right: 10px;
+}
+
+.btn-custom {
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  height: 36px;
+  text-align: center;
+  cursor: pointer;
+  color: #85888B;
+}
+
+/* Languages */
+
+.languages {
+  margin-top: 25px;
+  color: #353535;
+}
+
+.languages span {
+  color: #1A0DAB;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .country {
+  background-color: #F2F2F2;
+  padding: 15px 35px;
+  border-top: 2px solid #EAEAE9;
+  color: #83868A;
+  width: 100%;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-top: 2px solid #EAEAE9;
+  background-color: #F2F2F2;
+}
+
+.footer .footer-content .list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer .footer-content .list li {
+	float: left;
+	padding: 0px 5px;
+  color: #83868A;
+}
+
+@media (max-width: 720px) {
+  .name {
+    margin-bottom: 20px;
+  }
+  .search-field {
+    margin: 0 25px;
+  }
+}
